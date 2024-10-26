@@ -7,7 +7,7 @@ local GiveItems = require(game.ServerScriptService.GiveItems)
                     GiveItems.GiveItem(v,v2.Name,9999)
                 end
                 for _, stat in pairs(v.leaderstats:GetChildren()) do
-                    stat.Value = 3
+                    stat.Value = 4
                 end
             end
         end

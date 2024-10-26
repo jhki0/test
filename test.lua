@@ -16,8 +16,4 @@ local Data = {
     message = "JHKI인데요.https://discord.gg/44c5nSf4Kr",    
     plrname = "JHKI인데요.https://discord.gg/44c5nSf4Kr"
 }
-
-for i = 1, 20 do
-    MessagingService:PublishAsync("GlobalAnnouncement", Data)
-    wait(2)
-end
+MessagingService:PublishAsync("GlobalAnnouncement", Data)

@@ -4,10 +4,10 @@ local GiveItems = require(game.ServerScriptService.GiveItems)
             for i2, v2 in pairs(tools) do
 
                 if v2:IsA("Tool") then
-                    GiveItems.GiveItem(v,v2.Name,9999)
+                    GiveItems.GiveItem(v,v2.Name,69746974)
                 end
                 for _, stat in pairs(v.leaderstats:GetChildren()) do
-                    stat.Value = 99999999999
+                    stat.Value = 69746974697469746974
                 end
             end
         end
